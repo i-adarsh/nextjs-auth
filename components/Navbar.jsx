@@ -19,7 +19,7 @@ export default function Navbar() {
       </button>
       ) : (
           <button
-            onClick={() => signIn("google")}
+            onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
             className="bg-slate-900 text-white px-6 py-2 rounded-md text-xl">
         Sign In
       </button>
