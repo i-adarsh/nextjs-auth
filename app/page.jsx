@@ -1,9 +1,7 @@
-import UserInfo from "@/components/UserInfo";
+import LoginForm from "@/components/LoginForm";
 
 export default function Home() {
   return (
-    <div className="grid place-items-center h-screen -mt-25">
-      <UserInfo />
-    </div>
+    <LoginForm />
   );
 }
