@@ -6,3 +6,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"name":"user3", "email":"t
 ## GET
 
 curl -X GET http://localhost:3000/api/user
+
+git config --global user.email "i.adarsh.kr@icloud.com"
+git config --global user.name "adarsh"
