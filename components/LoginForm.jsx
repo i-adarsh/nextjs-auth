@@ -46,7 +46,7 @@ export default function LoginForm() {
     
 
     return (
-        <div className="grid place-items-center h-screen">
+        <div className="grid place-items-center -mt-52 h-screen">
             <div className="shadow-lg p-5 rounded-lg border-t-4 border-blue-400">
                 <h1 className="text-xl font-bold text-center my-4">Login</h1>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
